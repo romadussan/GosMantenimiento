@@ -15,7 +15,7 @@ class Pagina1 extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('pagina1');
-
+//route
 	}
 public function validate (){
 
