@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>WEBGOS | Starter</title>
+  <title>WEBGOS | Master</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -267,7 +267,7 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="#mastermantenimiento"><i class="fa fa-link"></i> <span>Mantenimientos</span></a></li>
+        <li><a href="#"><i class="fa fa-link"></i> <span>Mantenimientos</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Operaciones</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Recuersos humanos</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Bodega</span></a></li>
@@ -306,78 +306,9 @@ desired effect
     </section>
   <!-- Main content -------------------------------------------------------------------->
 
-  <!-- Small boxes (Stat box) -->
-  <div class="row">
-    <div class="col-lg-3 col-xs-6">
-      <!-- small box -->
-      <div class="small-box bg-aqua">
-        <div class="inner">
-          <h4>MANTENIMIENTO</h4>
 
-         <p>GOSMANT</p>
-        </div>
-        <div class="icon">
-          <i class="ion-android-clipboard"></i>
-        </div>
-        <a href="#" class="small-box-footer">
-          Entrar<i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-xs-6">
-      <!-- small box -->
-      <div class="small-box bg-green">
-        <div class="inner">
-          <h4>OPERACIONES<sup style="font-size: 20px"> </sup></h4>
 
-          <p>GOSOFT</p>
-        </div>
-        <div class="icon">
-          <i class="ion ion-stats-bars"></i>
-        </div>
-        <a href="#" class="small-box-footer">
-          Entrar <i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-xs-6">
-      <!-- small box -->
-      <div class="small-box bg-yellow">
-        <div class="inner">
-          <h4>GESTION HUMANA</h4>
 
-          <p>HUMGOS</p>
-        </div>
-        <div class="icon">
-          <i class="ion ion-person-add"></i>
-        </div>
-        <a href="#" class="small-box-footer">
-          Entrar <i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
-    </div>
-    <!-- ./col -->
-    <div class="col-lg-3 col-xs-6">
-      <!-- small box -->
-      <div class="small-box bg-red">
-        <div class="inner">
-          <h4>ALMACEN</h4>
-
-          <p>Bodega</p>
-        </div>
-        <div class="icon">
-          <i class="ion ion-pie-graph"></i> <!--ion-pie-graph-->
-        </div>
-        <a href="#" class="small-box-footer">
-          Entrar <i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
-    </div>
-    <!-- ./col -->
-  </div>
-  <!-- /.row -->
 
 
 
