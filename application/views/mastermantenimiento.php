@@ -272,42 +272,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!--  <small>OPCIONAL</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> HOME</a></li>
+        <li><a href="<?=base_url();?>index.php/pagina1"><i class="fa fa-dashboard"></i> HOME</a><br><br>
+
+</section>
         <!--<li class="active">Here</li>
       </ol>
-    </section>
+
   <!-- Main content -------------------------------------------------------------------->
 
+  Un wikitexto es un texto elaborado mediante un lenguaje de marcado especial para la creación de páginas wikis, en servidores que tengan instalado algún software para wikis.
 
+  El lenguaje de marcado para wikis se denomina lenguaje wikitexto y no existe un estándar que defina su sintaxis, sus características y su estructura, como la tiene el lenguaje HTML. Por el contrario, depende del software wiki utilizado.
 
-  <div class="column">
-      <h2 class="title">Create Contact</h2>
-      <form action="<?= base_url('contacts/store') ?>" method="POST">
-          <div class="field">
-              <label class="label">Contact Name</label>
-              <div class="control">
-                  <input id="name" name="name" class="input" type="text" placeholder="Type the contact name">
-              </div>
-          </div>
-          <div class="field">
-              <label class="label">Contact Number</label>
-              <div class="control">
-                  <input id="name" name="name" class="input" type="text" placeholder="Type the contact number">
-              </div>
-          </div>
-          <div class="field">
-              <label class="label">Email Address</label>
-              <div class="control">
-                  <input id="email" name="email" class="input" type="email" placeholder="Type the email address">
-              </div>
-          </div>
-          <div class="field is-grouped">
-              <div class="control">
-                  <button class="button is-link">Save Contact</button>
-              </div>
-          </div>
-      </form>
-  </div>
+  En algunos programas wikis se acepta el uso de algunas marcaciones de HTML o de otros lenguajes de marcado. Esto también depende de las restricciones del propio sitio, que permiten o no ciertas marcaciones.
+
+  Entre los lenguajes wikitexto está el estándar de MediaWiki, en el que las marcaciones se logran a partir de una sintaxis sencilla. Por ejemplo, para crear un hiperenlace, se agrega las marcaciones [[ (abrir corchetes) seguido por el nombre del enlace interno y finalizado por ]] (cerrar corchetes). O para resaltar en negrita una cadena de caracteres se usa las marcaciones de comillas simples (''').
+
+  La Wikipedia usa el software MediaWiki, en el cual también se aceptan muchas marcaciones HTML.
 
 
 

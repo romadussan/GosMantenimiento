@@ -7,4 +7,23 @@ class Master extends CI_Controller {
 	{
 		$this->load->view('mastermantenimiento');
 	}
+
+  public function ingresaequipos()
+	{
+		$this->load->view('mastermantenimiento');
+	}
+  public function ingresapersonal()
+  {
+    $this->load->view('mastermantenimiento');
+  }
+
+  public function ingresasistemas()
+  {
+    $this->load->view('mastermantenimiento');
+  }
+  public function ingresafallas()
+  {
+    $this->load->view('mastermantenimiento');
+  }
+
 }
