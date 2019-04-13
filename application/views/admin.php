@@ -267,7 +267,7 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="#mastermantenimiento"><i class="fa fa-link"></i> <span>Mantenimientos</span></a></li>
+        <li><a href="<?php echo base_url(); ?>index.php/Master/mostrarmaster"><i class="fa fa-link"></i> <span>Mantenimientos</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Operaciones</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Recuersos humanos</span></a></li>
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Bodega</span></a></li>
@@ -319,7 +319,7 @@ desired effect
         <div class="icon">
           <i class="ion-android-clipboard"></i>
         </div>
-        <a href="#" class="small-box-footer">
+        <a href="<?php echo base_url(); ?>index.php/Master/mostrarmaster" class="small-box-footer">
           Entrar<i class="fa fa-arrow-circle-right"></i>
         </a>
       </div>

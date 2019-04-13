@@ -29,38 +29,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <link rel="stylesheet" href="<?php echo base_url(); ?>dist/css/skins/skin-blue.min.css">
 
 
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<!--
-BODY TAG OPTIONS:
-=================
-Apply one or more of the following classes to get the
-desired effect
-|---------------------------------------------------------|
-| SKINS         | skin-blue                               |
-|               | skin-black                              |
-|               | skin-purple                             |
-|               | skin-yellow                             |
-|               | skin-red                                |
-|               | skin-green                              |
-|---------------------------------------------------------|
-|LAYOUT OPTIONS | fixed                                   |
-|               | layout-boxed                            |
-|               | layout-top-nav                          |
-|               | sidebar-collapse                        |
-|               | sidebar-mini                            |
-|---------------------------------------------------------|
--->
+
 <body class="hold-transition skin-blue  sidebar-mini   ">
 <div class="wrapper">
 
@@ -68,7 +40,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="<?php echo base_url(); ?>index.php/pagina1/validate" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -265,25 +237,25 @@ desired effect
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">HEADER</li>
+        <li class="header">INGRESOS</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="#"><i class="fa fa-link"></i> <span>Mantenimientos</span></a></li>
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Operaciones</span></a></li>
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Recuersos humanos</span></a></li>
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Bodega</span></a></li>
+        <li><a href="#"><i class="fa fa-link"></i> <span>Ingresar Personal</span></a></li>
+        <li ><a href="#"><i class="fa fa-link"></i> <span>Ingresar Equipos</span></a></li>
+        <li ><a href="#"><i class="fa fa-link"></i> <span>Ingresar Sistemas</span></a></li>
+        <li ><a href="#"><i class="fa fa-link"></i> <span>Bodega</span></a></li>
         <li class="treeview">
 
-        <!--  <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+       <a href="#"><i class="fa fa-link"></i> <span>Unidades</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="#">Ingresar Equipos</a></li>
+            <li><a href="#">sistemas</a></li>
           </ul>
         </li>
-      </ul> -->
+      </ul>
       <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
@@ -296,19 +268,46 @@ desired effect
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        MODULOS GOS <br> <br>
+       <br>
     <!--  <small>OPCIONAL</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> HOME</a></li>
+        <!--<li class="active">Here</li>
       </ol>
     </section>
   <!-- Main content -------------------------------------------------------------------->
 
 
 
-
+  <div class="column">
+      <h2 class="title">Create Contact</h2>
+      <form action="<?= base_url('contacts/store') ?>" method="POST">
+          <div class="field">
+              <label class="label">Contact Name</label>
+              <div class="control">
+                  <input id="name" name="name" class="input" type="text" placeholder="Type the contact name">
+              </div>
+          </div>
+          <div class="field">
+              <label class="label">Contact Number</label>
+              <div class="control">
+                  <input id="name" name="name" class="input" type="text" placeholder="Type the contact number">
+              </div>
+          </div>
+          <div class="field">
+              <label class="label">Email Address</label>
+              <div class="control">
+                  <input id="email" name="email" class="input" type="email" placeholder="Type the email address">
+              </div>
+          </div>
+          <div class="field is-grouped">
+              <div class="control">
+                  <button class="button is-link">Save Contact</button>
+              </div>
+          </div>
+      </form>
+  </div>
 
 
 
